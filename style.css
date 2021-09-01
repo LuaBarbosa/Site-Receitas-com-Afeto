@@ -1,0 +1,23 @@
+header {
+  color: Peru;
+  background-color: LemonChiffon;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 10px;
+  font-family: "Poppins";
+  display: flex;
+}
+
+header a {
+  font-family: "Poppins";
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: darkgray;
+}
+
+header li {
+  list-style: none;
+}
+
+footer {
+}
