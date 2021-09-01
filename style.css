@@ -19,5 +19,22 @@ header li {
   list-style: none;
 }
 
+section {
+  text-align: center;
+  margin: auto 25%;
+}
+
 footer {
+  background-color: LemonChiffon;
+  display: flex;
+  font-family: "Poppins";
+  text-align: center;
+  flex-direction: column;
+}
+
+.form {
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 2px;
+  text-align: center;
 }
