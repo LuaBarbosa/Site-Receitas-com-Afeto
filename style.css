@@ -20,13 +20,19 @@ header li {
 }
 
 section {
-  text-align: center;
   margin: auto 25%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+section li {
+  list-style: none;
 }
 
 footer {
   background-color: LemonChiffon;
-  display: flex;
+
   font-family: "Poppins";
   text-align: center;
   flex-direction: column;
