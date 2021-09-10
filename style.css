@@ -29,6 +29,33 @@ section {
 section li {
   list-style: none;
 }
+#sobremesa {
+  margin: auto 25%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins";
+  margin: 20px;
+}
+
+#sobremesa img {
+  height: 200px;
+  width: 450px;
+}
+
+#almoco {
+  margin: auto 25%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins";
+  margin: 40px;
+  padding: 40px;
+  align-items: center;
+}
+
+#almoco img {
+  height: 200px;
+  width: 300px;
+}
 footer {
   background-color: LemonChiffon;
   margin-top: auto;
