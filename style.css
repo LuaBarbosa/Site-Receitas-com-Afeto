@@ -29,17 +29,18 @@ section {
 section li {
   list-style: none;
 }
-
 footer {
   background-color: LemonChiffon;
-
+  margin-top: auto;
   font-family: "Poppins";
   text-align: center;
   flex-direction: column;
+  position: absolute;
+
+  width: 100%;
 }
 
 .form {
-  margin-bottom: 10px;
   padding: 15px;
   border-radius: 2px;
   text-align: center;
