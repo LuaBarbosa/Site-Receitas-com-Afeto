@@ -25,8 +25,13 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section id="inicio">
         <h2>Quem Somos</h2>
+        <img
+          src="./imagens/afeto.jpg"
+          alt="Imagem de uma vasilha com colher de pau em formato de coração."
+          title="pavê"
+        />
         <p>
           Esta página foi pensada com o objetivo de compartilhar receitas
           afetivas com sabor de infância e sonho de família e amigos reunidos à
@@ -44,12 +49,30 @@
       <div class="form">
         <form>
           <label>Nome:</label>
-          <input type="text" name="nome" placeholder="Digite seu Nome" />
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu Nome"
+          />
           <label>E-mail:</label>
-          <input type="email" name="email" placeholder="Digite seu Email" />
-          <input type="submit" name="enviar" value="Enviar" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu Email"
+          />
+          <label>Telefone:</label>
+          <input
+            type="number"
+            name="telefone"
+            id="telefone"
+            placeholder="Digite seu telefone "
+          />
+          <button id="botaoEnviar">Enviar</button>
         </form>
-      
+      </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
