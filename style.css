@@ -18,6 +18,10 @@ header a {
 header li {
   list-style: none;
 }
+#inicio img {
+  height: 200px;
+  width: 300px;
+}
 
 section {
   margin: auto 25%;
