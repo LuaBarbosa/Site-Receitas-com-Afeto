@@ -19,6 +19,7 @@
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="sobremesas.html">Adoçando o dia</a></li>
+          <li><a href="contato.html">Contatos</a></li>
         </ul>
       </nav>
     </header>
@@ -142,16 +143,35 @@
       </section>
     </main>
     <footer>
-      <div>
-        <p>Cadastre-se e receba novidades por email!!</p>
+      <p>Cadastre-se e receba novidades por email!!</p>
+      <div class="form">
         <form>
           <label>Nome:</label>
-          <input type="text" name="nome" placeholder="Digite seu Nome" />
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu Nome"
+          />
           <label>E-mail:</label>
-          <input type="email" name="email" placeholder="Digite seu Email" />
-          <input type="submit" name="enviar" value="Enviar" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu Email"
+          />
+          <label>Telefone: </label>
+
+          <input
+            type="number"
+            name="telefone"
+            id="telefone"
+            placeholder="Digite seu telefone "
+          />
+          <button id="botaoEnviar">Enviar</button>
         </form>
       </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
