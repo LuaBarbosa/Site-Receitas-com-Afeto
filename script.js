@@ -1,5 +1,6 @@
-document.getElementById("botaoEnviar");
-document.addEventListener("click", validaFormulario);
+document
+  .getElementById("botaoEnviar")
+  .addEventListener("click", validaFormulario);
 
 function validaFormulario() {
   if (
