@@ -77,3 +77,14 @@ footer {
   border-radius: 2px;
   text-align: center;
 }
+
+#recado {
+  display: block;
+  margin-bottom: 10px;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
